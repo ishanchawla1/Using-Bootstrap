@@ -1,0 +1,66 @@
+body {
+  background: #f4f5f6 !important;
+}
+
+header {
+  width: 100%;
+}
+
+.desktop-header {
+  background: #f72210;
+  color: white;
+  width: 1310px;
+}
+
+header {
+  margin: 0 auto !important;
+}
+
+#body-max-width {
+  max-width: 1310px;
+}
+
+.setImage {
+  width: auto;
+  height: 90px;
+  top: 0;
+  left: 35%;
+  z-index: 3;
+}
+
+.subscribe {
+  background-color: #f4f5f6;
+  color: #f72210;
+}
+
+.subscribe:hover {
+  text-decoration: none;
+  color: #f72210;
+}
+
+.weather-icon {
+  height: 25px;
+  width: auto;
+}
+
+.weather-arrow {
+  vertical-align: middle;
+  height: 15px;
+  width: auto;
+}
+
+.search-icon {
+  vertical-align: middle;
+  height: 25px;
+  width: auto;
+}
+
+.grey-color {
+  color: #9a9a9a;
+}
+
+.help-text {
+  bottom: 0;
+  left: 0;
+}
+/*# sourceMappingURL=main.css.map */
