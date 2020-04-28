@@ -1,5 +1,6 @@
 $red-color: #f72210;
 $standard-font: "Roboto Condensed",sans-serif;
+$roboto-condenced-bold: "Roboto Condensed Bold";
 
 body {
   background:#f4f5f6 !important;
@@ -28,7 +29,7 @@ header {
   width: auto;
   height: 90px;
   top: 0;
-  left: 35%;
+  left: 40%;
   z-index: 3;
 }
 
@@ -66,7 +67,7 @@ header {
 .help-text{
   bottom: 0;
   left: 0;
-  background-color: #e6e6e6;
+  background-color: rgba(255,255,255,.9);
   color: $red-color !important;
   z-index: 3;
 }
@@ -90,15 +91,6 @@ header {
   }
 }
 
-.nav-flex {
-  display: flex;
-  flex-wrap: nowrap !important;
-}
-
-.nav {
-  justify-content: space-between !important;
-}
-
 .subscribe::after {
   content: " >";
   font-size: 1rem;
@@ -109,6 +101,10 @@ header {
   font-family: $standard-font !important;
   font-size: 1.5rem;
   color: black;
+}
+
+.small-font-size {
+  font-size: 1rem;
 }
 
 .h3 {
@@ -126,4 +122,63 @@ span {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.25rem;
+}
+
+nav::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "";
+  display: block;
+  width: 100px;
+  background-color: #f72210;
+  border-left: 12px solid white;
+  border-top: 13px solid #f72210;
+}
+
+nav a {
+  font-family: $standard-font;
+  font-weight: 700;
+  color: black;
+}
+
+main {
+  background-color: white;
+}
+
+.opinion-header-text div a {
+  font-family: $standard-font;
+  font-weight: bold;
+  color: black;
+  font-size: 1rem;
+}
+
+nav a:hover,
+.opinion-header-text div a:hover {
+  color: $red-color !important;
+  text-decoration: none !important;
+}
+
+.author-name {
+  font-size: .9rem;
+  font-weight: bold;
+  color: #555;
+}
+
+.heroes col {
+  padding: 5px !important;
+}
+
+.help-text-heroes {
+  bottom: 0;
+  left: 0;
+  background-color:  #c2d4d7;
+  color: #272727 !important;
+  z-index: 3;
+  font-size: 0.5rem;
+}
+
+.help-text-heroes:hover {
+  background-color: #272727 !important;
+  color: #c2d4d7 !important;
 }
