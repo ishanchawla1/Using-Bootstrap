@@ -172,11 +172,23 @@ nav a:hover,
   background-color: #c2d4d7;
   color: #272727 !important;
   z-index: 3;
-  font-size: 0.5rem;
+  font-size: 0.8rem;
 }
 
 .help-text-heroes:hover {
   background-color: #272727 !important;
   color: #c2d4d7 !important;
+}
+
+.heros-section p a {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  font: 20px/22px "Lora",serif;
+}
+
+.summary {
+  font: 15px/20px "Helvetica Neue","Helvetica",Arial,sans-serif;
+  color: rgba(39, 39, 39, 0.5);
 }
 /*# sourceMappingURL=main.css.map */
