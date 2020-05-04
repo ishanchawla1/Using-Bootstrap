@@ -6,6 +6,59 @@ header {
   width: 100%;
 }
 
+/*
+  Text formatting
+*/
+.black-text-hover-red-underline {
+  color: #272727 !important;
+}
+
+.black-text-hover-red-underline:hover {
+  color: #272727 !important;
+  text-decoration: underline;
+  -webkit-text-decoration-color: #f72210 !important;
+          text-decoration-color: #f72210 !important;
+}
+
+.font-roboto {
+  font-family: "Roboto Condensed", sans-serif !important;
+}
+
+.medium-font-size {
+  font-size: 1.5rem;
+}
+
+.small-font-size {
+  font-size: 1rem;
+}
+
+.line-height-24 {
+  line-height: 1.5rem;
+}
+
+.help-text-infocus {
+  bottom: 31.5% !important;
+  left: 0;
+}
+
+.black-text-hover-red {
+  color: #272727 !important;
+}
+
+.black-text-hover-red:hover {
+  text-decoration: none;
+  color: #f72210 !important;
+}
+
+.set-width-95 {
+  width: 95px !important;
+  max-width: 95px !important;
+}
+
+.height-354 {
+  height: 354px !important;
+}
+
 .desktop-header {
   background: #f72210;
   color: white;
@@ -68,23 +121,12 @@ header {
   z-index: 3;
 }
 
-.col-sm-3half, .col-sm-8half {
-  position: relative;
-  min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
-}
-
-@media (min-width: 768px) {
-  .col-sm-3half, .col-sm-8half {
-    float: left;
-  }
-  .col-sm-3half {
-    width: 29.16666667%;
-  }
-  .col-sm-8half {
-    width: 70.83333333%;
-  }
+.help-text-magzine {
+  bottom: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #f72210 !important;
+  z-index: 3;
 }
 
 .subscribe::after {
@@ -93,22 +135,13 @@ header {
   padding-left: 0.7rem;
 }
 
-.set-standard-font {
-  font-family: "Roboto Condensed", sans-serif !important;
-  font-size: 1.5rem;
-  color: black;
-}
-
-.small-font-size {
-  font-size: 1rem;
-}
-
 .h3 {
   font-size: 1.5rem !important;
   line-height: 1.5rem !important;
 }
 
-a:hover {
+a:hover
+.feature-helper a:hover {
   color: black !important;
   -webkit-text-decoration-color: #f72210 !important;
           text-decoration-color: #f72210 !important;
@@ -200,5 +233,31 @@ nav a:hover,
   background-color: #f72210;
   background-position: center;
   margin-right: 0.625rem;
+}
+
+.object-fit-class {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  height: 19rem;
+}
+
+.see-all-features:hover {
+  background-color: #DBDCDD;
+}
+
+.feature {
+  color: white !important;
+  background-color: #f72210;
+  text-decoration: none !important;
+}
+
+.feature:hover {
+  color: white !important;
+}
+
+.red-text {
+  color: #f72210 !important;
 }
 /*# sourceMappingURL=main.css.map */
