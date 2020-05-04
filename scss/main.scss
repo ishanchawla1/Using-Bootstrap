@@ -1,4 +1,5 @@
 $red-color: #f72210;
+$grey-strong-color: #666;
 $standard-font: "Roboto Condensed",sans-serif;
 $roboto-condenced-bold: "Roboto Condensed Bold";
 
@@ -107,6 +108,19 @@ header {
 
 .red-text {
   color: $red-color;
+}
+
+.grey-on-hover-black {
+  color: $grey-strong-color;
+  font-size: 0.8rem;
+}
+
+.grey-on-hover-black:hover {
+  color: black !important;
+}
+
+.grey-text {
+  color: $grey-strong-color;
 }
 
 .weather-icon {
@@ -282,13 +296,17 @@ nav a:hover,
 
 .magzine-help {
   top: 10%;
-  left: 50%;
+  left: 10%;
 }
 
 .w-35 {
   width: max-content !important;
 }
 
-.h-320 {
-  height: 320px !important;
+.adjust-on-125 {
+  margin: 1.5rem 0 !important;
+}
+
+.icon-social {
+  width: 30px;
 }

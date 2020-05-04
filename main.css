@@ -105,6 +105,19 @@ header {
   color: #f72210;
 }
 
+.grey-on-hover-black {
+  color: #666;
+  font-size: 0.8rem;
+}
+
+.grey-on-hover-black:hover {
+  color: black !important;
+}
+
+.grey-text {
+  color: #666;
+}
+
 .weather-icon {
   height: 25px;
   width: auto;
@@ -281,7 +294,7 @@ nav a:hover,
 
 .magzine-help {
   top: 10%;
-  left: 50%;
+  left: 10%;
 }
 
 .w-35 {
@@ -290,7 +303,11 @@ nav a:hover,
   width: max-content !important;
 }
 
-.h-320 {
-  height: 320px !important;
+.adjust-on-125 {
+  margin: 1.5rem 0 !important;
+}
+
+.icon-social {
+  width: 30px;
 }
 /*# sourceMappingURL=main.css.map */
