@@ -77,7 +77,7 @@ header {
 }
 
 #body-max-width {
-  max-width: 1310px;
+  max-width: 1310px !important;
   width: 100% !important;
 }
 
@@ -116,6 +116,21 @@ header {
 .sticky {
   position: sticky;
   top: 10px;
+}
+
+.w-10 {
+  width: 10%;
+}
+
+.nav-sticky {
+  background-color: $red-color;
+  position: sticky !important;
+  top: 0;
+  z-index: 10;
+}
+
+.color-white {
+  color: #f4f5f6;
 }
 
 .border-solid-red {
@@ -163,6 +178,10 @@ header {
   vertical-align: middle;
   height: 25px;
   width: auto;
+}
+
+.fa_custom {
+  color: #fb9a94;
 }
 
 .grey-color {
