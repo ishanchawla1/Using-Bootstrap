@@ -13,6 +13,10 @@ header {
   width: 100%;
 }
 
+.navbar-white {
+  background-color: #fff;
+}
+
 /*
   Text formatting
 */
@@ -76,7 +80,7 @@ header {
   margin: 0 auto !important;
 }
 
-#body-max-width {
+.body-max-width {
   max-width: 1310px !important;
   width: 100% !important;
 }
@@ -124,9 +128,6 @@ header {
 
 .nav-sticky {
   background-color: $red-color;
-  position: sticky !important;
-  top: 0;
-  z-index: 10;
 }
 
 .color-white {
@@ -163,9 +164,14 @@ header {
   color: $grey-strong-color;
 }
 
+.grey-text:hover {
+  color: $grey-strong-color !important;
+}
+
 .weather-icon {
   height: 25px;
   width: auto;
+  margin: 0 10px;
 }
 
 .weather-arrow {
@@ -235,6 +241,10 @@ span {
   font-size: 0.8rem;
   font-weight: 400;
   line-height: 1rem;
+}
+
+.max-width {
+  width: max-content;
 }
 
 .make-sticky {
@@ -395,4 +405,17 @@ nav a:hover,
 
 .icon-social {
   width: 30px;
+}
+
+.sticky-nav-top {
+  margin-top: -3.6rem;
+  margin-bottom: 3rem;
+}
+
+.w-8 {
+  width: 8%;
+}
+
+.w-4 {
+  width: 4%;
 }
