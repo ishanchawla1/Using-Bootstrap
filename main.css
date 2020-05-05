@@ -4,6 +4,7 @@ body {
 
 header {
   width: 100%;
+  margin: 0 auto !important;
 }
 
 .navbar-white {
@@ -67,10 +68,6 @@ header {
   background: #f72210;
   color: white;
   width: 1310px;
-}
-
-header {
-  margin: 0 auto !important;
 }
 
 .body-max-width {
@@ -138,10 +135,6 @@ header {
 
 .subscribe:hover {
   text-decoration: none;
-  color: #f72210;
-}
-
-.red-text {
   color: #f72210;
 }
 
@@ -224,11 +217,24 @@ header {
   line-height: 1.5rem !important;
 }
 
-a:hover
+nav a {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  color: black;
+}
+
+.opinion-header-text div a {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+  color: black;
+  font-size: 1rem;
+}
+
+a:hover,
 .feature-helper a:hover {
   color: black !important;
   -webkit-text-decoration-color: #f72210 !important;
-  text-decoration-color: #f72210 !important;
+          text-decoration-color: #f72210 !important;
 }
 
 span {
@@ -282,21 +288,8 @@ nav::before {
   border-top: 13px solid #f72210;
 }
 
-nav a {
-  font-family: "Roboto Condensed", sans-serif;
-  font-weight: 700;
-  color: black;
-}
-
 main {
   background-color: white;
-}
-
-.opinion-header-text div a {
-  font-family: "Roboto Condensed", sans-serif;
-  font-weight: bold;
-  color: black;
-  font-size: 1rem;
 }
 
 nav a:hover,

@@ -6,11 +6,12 @@ $standard-font: "Roboto Condensed",sans-serif;
 $roboto-condenced-bold: "Roboto Condensed Bold";
 
 body {
-  background:#f4f5f6 !important;
+  background: #f4f5f6 !important;
 }
 
 header {
   width: 100%;
+  margin: 0 auto !important;
 }
 
 .navbar-white {
@@ -74,10 +75,6 @@ header {
   background: $red-color;
   color: white;
   width: 1310px;
-}
-
-header {
-  margin: 0 auto !important;
 }
 
 .body-max-width {
@@ -147,10 +144,6 @@ header {
   color: $red-color;
 }
 
-.red-text {
-  color: $red-color;
-}
-
 .grey-on-hover-black {
   color: $grey-strong-color;
   font-size: 0.8rem;
@@ -197,7 +190,7 @@ header {
 .help-text {
   bottom: 0;
   left: 0;
-  background-color: rgba(255,255,255,.9);
+  background-color: rgba(255, 255, 255, .9);
   color: $red-color !important;
   z-index: 3;
 }
@@ -205,7 +198,7 @@ header {
 .help-text-blue {
   bottom: 0;
   left: 0;
-  background-color: rgba(255,255,255,.9);
+  background-color: rgba(255, 255, 255, .9);
   color: $blue-color !important;
   z-index: 3;
 }
@@ -213,7 +206,7 @@ header {
 .help-text-magzine {
   bottom: 0;
   left: 0;
-  background-color: rgba(255,255,255,.9);
+  background-color: rgba(255, 255, 255, .9);
   color: $red-color !important;
   z-index: 3;
 }
@@ -230,8 +223,21 @@ header {
   line-height: 1.5rem !important;
 }
 
-a:hover 
-.feature-helper a:hover{
+nav a {
+  font-family: $standard-font;
+  font-weight: 700;
+  color: black;
+}
+
+.opinion-header-text div a {
+  font-family: $standard-font;
+  font-weight: bold;
+  color: black;
+  font-size: 1rem;
+}
+
+a:hover,
+.feature-helper a:hover {
   color: black !important;
   text-decoration-color: $red-color !important;
 }
@@ -248,7 +254,7 @@ span {
 }
 
 .make-sticky {
-  position:static !important;
+  position: static !important;
 }
 
 .font-size-75 {
@@ -285,21 +291,8 @@ nav::before {
   border-top: 13px solid #f72210;
 }
 
-nav a {
-  font-family: $standard-font;
-  font-weight: 700;
-  color: black;
-}
-
 main {
   background-color: white;
-}
-
-.opinion-header-text div a {
-  font-family: $standard-font;
-  font-weight: bold;
-  color: black;
-  font-size: 1rem;
 }
 
 nav a:hover,
