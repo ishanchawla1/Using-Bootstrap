@@ -1,6 +1,6 @@
-# Project Name
+# The Newsweek
 
-> One paragraph statement about the project.
+This project consists of building an HTML document that matches the appearance of TheNewsWeek(newsweek.com) website.
 
 ![screenshot](./app_screenshot.png)
 
