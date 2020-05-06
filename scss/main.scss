@@ -229,18 +229,17 @@ nav a {
   color: black;
 }
 
+a:hover {
+  color: black !important;
+  text-decoration-color: $red-color !important;
+}
+
 .heros-section p a {
   text-decoration: none;
   color: black;
   font-weight: 400;
   font-family: "Lora", serif;
   font-size: 20px/22px;
-}
-
-
-a:hover {
-  color: black !important;
-  text-decoration-color: $red-color !important;
 }
 
 .opinion-header-text div a {
