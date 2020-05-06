@@ -229,8 +229,16 @@ nav a {
   color: black;
 }
 
-a:hover,
-.feature-helper a:hover {
+.heros-section p a {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  font-family: "Lora", serif;
+  font-size: 20px/22px;
+}
+
+
+a:hover {
   color: black !important;
   text-decoration-color: $red-color !important;
 }
@@ -325,16 +333,8 @@ main {
   color: #c2d4d7 !important;
 }
 
-.heros-section p a {
-  text-decoration: none;
-  color: black;
-  font-weight: 400;
-  font-family: "Lora", serif;
-  font-size: 20px/22px ;
-}
-
 .summary {
-  font-size: 15px/20px ;
+  font-size: 15px/20px;
   font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
   color: rgba(39, 39, 39, 0.5);
 }

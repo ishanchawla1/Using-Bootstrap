@@ -223,8 +223,15 @@ nav a {
   color: black;
 }
 
-a:hover,
-.feature-helper a:hover {
+.heros-section p a {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  font-family: "Lora", serif;
+  font-size: 20px/22px;
+}
+
+a:hover {
   color: black !important;
   -webkit-text-decoration-color: #f72210 !important;
           text-decoration-color: #f72210 !important;
@@ -320,14 +327,6 @@ main {
 .help-text-heroes:hover {
   background-color: #272727 !important;
   color: #c2d4d7 !important;
-}
-
-.heros-section p a {
-  text-decoration: none;
-  color: black;
-  font-weight: 400;
-  font-family: "Lora", serif;
-  font-size: 20px/22px;
 }
 
 .summary {
