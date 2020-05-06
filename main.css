@@ -230,6 +230,12 @@ nav a {
   font-size: 1rem;
 }
 
+nav a:hover,
+.opinion-header-text div a:hover {
+  color: #f72210 !important;
+  text-decoration: none !important;
+}
+
 a:hover,
 .feature-helper a:hover {
   color: black !important;
@@ -292,12 +298,6 @@ main {
   background-color: white;
 }
 
-nav a:hover,
-.opinion-header-text div a:hover {
-  color: #f72210 !important;
-  text-decoration: none !important;
-}
-
 .author-name {
   font-size: 0.9rem;
   font-weight: bold;
@@ -326,11 +326,11 @@ nav a:hover,
   text-decoration: none;
   color: black;
   font-weight: 400;
-  font: 20px/22px "Lora",serif;
+  font: 20px/22px "Lora", serif;
 }
 
 .summary {
-  font: 15px/20px "Helvetica Neue","Helvetica",Arial,sans-serif;
+  font: 15px/20px "Helvetica Neue", "Helvetica", Arial, sans-serif;
   color: rgba(39, 39, 39, 0.5);
 }
 

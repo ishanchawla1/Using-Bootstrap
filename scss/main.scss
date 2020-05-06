@@ -190,7 +190,7 @@ header {
 .help-text {
   bottom: 0;
   left: 0;
-  background-color: rgba(255, 255, 255, .9);
+  background-color: rgba(255, 255, 255, 0.9);
   color: $red-color !important;
   z-index: 3;
 }
@@ -198,7 +198,7 @@ header {
 .help-text-blue {
   bottom: 0;
   left: 0;
-  background-color: rgba(255, 255, 255, .9);
+  background-color: rgba(255, 255, 255, 0.9);
   color: $blue-color !important;
   z-index: 3;
 }
@@ -206,7 +206,7 @@ header {
 .help-text-magzine {
   bottom: 0;
   left: 0;
-  background-color: rgba(255, 255, 255, .9);
+  background-color: rgba(255, 255, 255, 0.9);
   color: $red-color !important;
   z-index: 3;
 }
@@ -234,6 +234,12 @@ nav a {
   font-weight: bold;
   color: black;
   font-size: 1rem;
+}
+
+nav a:hover,
+.opinion-header-text div a:hover {
+  color: $red-color !important;
+  text-decoration: none !important;
 }
 
 a:hover,
@@ -295,12 +301,6 @@ main {
   background-color: white;
 }
 
-nav a:hover,
-.opinion-header-text div a:hover {
-  color: $red-color !important;
-  text-decoration: none !important;
-}
-
 .author-name {
   font-size: 0.9rem;
   font-weight: bold;
@@ -314,7 +314,7 @@ nav a:hover,
 .help-text-heroes {
   bottom: 0;
   left: 0;
-  background-color:  #c2d4d7;
+  background-color: #c2d4d7;
   color: #272727 !important;
   z-index: 3;
   font-size: 0.8rem;
@@ -329,12 +329,12 @@ nav a:hover,
   text-decoration: none;
   color: black;
   font-weight: 400;
-  font: 20px/22px "Lora",serif;
+  font: 20px/22px "Lora", serif;
 }
 
 .summary {
-  font: 15px/20px "Helvetica Neue","Helvetica",Arial,sans-serif;
-  color: rgba(39,39,39,.5);
+  font: 15px/20px "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  color: rgba(39, 39, 39, 0.5);
 }
 
 .n-icon {
