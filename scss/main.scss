@@ -229,6 +229,12 @@ nav a {
   color: black;
 }
 
+a:hover,
+.feature-helper a:hover {
+  color: black !important;
+  text-decoration-color: $red-color !important;
+}
+
 .opinion-header-text div a {
   font-family: $standard-font;
   font-weight: bold;
@@ -240,12 +246,6 @@ nav a:hover,
 .opinion-header-text div a:hover {
   color: $red-color !important;
   text-decoration: none !important;
-}
-
-a:hover,
-.feature-helper a:hover {
-  color: black !important;
-  text-decoration-color: $red-color !important;
 }
 
 span {
@@ -329,11 +329,13 @@ main {
   text-decoration: none;
   color: black;
   font-weight: 400;
-  font: 20px/22px "Lora", serif;
+  font-family: "Lora", serif;
+  font-size: 20px/22px ;
 }
 
 .summary {
-  font: 15px/20px "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  font-size: 15px/20px ;
+  font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
   color: rgba(39, 39, 39, 0.5);
 }
 
