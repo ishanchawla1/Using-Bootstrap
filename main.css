@@ -88,23 +88,25 @@ header {
   color: #f72210;
 }
 
+.subscribe:hover {
+  color: #f72210 !important;
+}
+
 .subscribe-other {
   background-color: #f72210;
-  color: #f4f5f6;
 }
 
 .subscribe-other:hover {
-  color: #f4f5f6;
+  color: #f4f5f6 !important;
 }
 
 .sign-up {
   background-color: #666;
-  color: #f4f5f6;
 }
 
 .sign-up:hover {
   background-color: #999;
-  color: #f4f5f6;
+  color: #f4f5f6 !important;
 }
 
 .sticky {
@@ -285,7 +287,6 @@ span {
 }
 
 .font-size-200 {
-  color: #f4f5f6;
   font-size: 2rem;
 }
 

@@ -1,12 +1,13 @@
 $red-color: #f72210;
 $grey-strong-color: #666;
 $grey-weak-color: #999;
-$blue-color: #3581f4;
+$blue-color: rgb(53, 129, 244);
+$light-grey: #f4f5f6;
 $standard-font: "Roboto Condensed",sans-serif;
 $roboto-condenced-bold: "Roboto Condensed Bold";
 
 body {
-  background: #f4f5f6 !important;
+  background: $light-grey !important;
 }
 
 header {
@@ -91,27 +92,29 @@ header {
 }
 
 .subscribe {
-  background-color: #f4f5f6;
-  color: $red-color;
+  background-color: $light-grey;
+  color: $red-color ;
+}
+
+.subscribe:hover {
+  color: $red-color !important;
 }
 
 .subscribe-other {
   background-color: $red-color;
-  color: #f4f5f6;
 }
 
 .subscribe-other:hover {
-  color: #f4f5f6;
+  color: $light-grey !important;
 }
 
 .sign-up {
   background-color: $grey-strong-color;
-  color: #f4f5f6;
 }
 
 .sign-up:hover {
   background-color: $grey-weak-color;
-  color: #f4f5f6;
+  color: $light-grey !important;
 }
 
 .sticky {
@@ -128,7 +131,7 @@ header {
 }
 
 .color-white {
-  color: #f4f5f6;
+  color: $light-grey;
 }
 
 .border-solid-red {
@@ -288,7 +291,6 @@ span {
 }
 
 .font-size-200 {
-  color: #f4f5f6;
   font-size: 2rem;
 }
 
@@ -381,7 +383,7 @@ main {
 }
 
 .background-grey {
-  background-color: #f4f5f6;
+  background-color: $light-grey;
 }
 
 .magzine-help {
