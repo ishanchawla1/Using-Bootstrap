@@ -93,11 +93,7 @@ header {
 
 .subscribe {
   background-color: $light-grey;
-  color: $red-color ;
-}
-
-.subscribe:hover {
-  color: $red-color !important;
+  color: $red-color;
 }
 
 .subscribe-other {
@@ -144,7 +140,7 @@ header {
 
 .subscribe:hover {
   text-decoration: none;
-  color: $red-color;
+  color: $red-color !important;
 }
 
 .grey-on-hover-black {
