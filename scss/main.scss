@@ -258,7 +258,7 @@ a:hover {
 }
 
 .media-rocks {
-  width: 25% ;
+  width: 25%;
 }
 
 nav a:hover,
@@ -421,7 +421,7 @@ main {
   padding-left: 1.25rem;
 }
 
-@media (max-width: 750px){
+@media (max-width: 750px) {
   .direction {
     flex-direction: column !important;
     flex-wrap: wrap !important;
@@ -438,7 +438,7 @@ main {
 
   .toggle-margin {
     margin: auto !important;
-    padding-left: 0rem !important;
+    padding-left: 0 !important;
   }
 }
 

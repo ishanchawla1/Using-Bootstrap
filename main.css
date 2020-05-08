@@ -31,7 +31,7 @@ header {
   color: #272727 !important;
   text-decoration: underline;
   -webkit-text-decoration-color: #f72210 !important;
-          text-decoration-color: #f72210 !important;
+  text-decoration-color: #f72210 !important;
 }
 
 .font-roboto {
@@ -233,7 +233,7 @@ nav a {
 a:hover {
   color: black !important;
   -webkit-text-decoration-color: #f72210 !important;
-          text-decoration-color: #f72210 !important;
+  text-decoration-color: #f72210 !important;
 }
 
 .heros-section p a {
@@ -365,9 +365,9 @@ main {
 
 .object-fit-class {
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   -o-object-position: center;
-     object-position: center;
+  object-position: center;
   height: 19rem;
 }
 
@@ -425,22 +425,25 @@ main {
   .direction {
     -webkit-box-orient: vertical !important;
     -webkit-box-direction: normal !important;
-        -ms-flex-direction: column !important;
-            flex-direction: column !important;
+    -ms-flex-direction: column !important;
+    flex-direction: column !important;
     -ms-flex-wrap: wrap !important;
-        flex-wrap: wrap !important;
+    flex-wrap: wrap !important;
   }
+
   .work-on-small {
     text-align: center;
     margin: auto;
   }
+
   .object-fit-class {
     -o-object-fit: contain;
-       object-fit: contain;
+    object-fit: contain;
   }
+
   .toggle-margin {
     margin: auto !important;
-    padding-left: 0rem !important;
+    padding-left: 0 !important;
   }
 }
 
@@ -448,6 +451,7 @@ main {
   .hide-640 {
     display: none !important;
   }
+
   .media-rocks {
     width: 50%;
   }
@@ -457,6 +461,7 @@ main {
   .hide-575 {
     display: none !important;
   }
+
   .media-rocks {
     width: 60%;
   }
