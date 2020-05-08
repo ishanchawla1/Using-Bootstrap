@@ -14,15 +14,15 @@
 <body>
     <header class="d-none d-xl-block">
             <div class="container-lg desktop-header px-3 py-3 mx-auto body-max-width">
-                <div class="row position-relative px-1 py-1">
-                    <div class="col-6 d-flex">
+                <div class="row position-relative pr-1 py-1">
+                    <div class="col-6 d-flex pl-2 ">
                       <img src="https://g.newsweek.com/img/weather/21.png" alt="Haze" class="weather-icon">
                        29° Mumbai, IN 
                       <img src="white-arrow-transparent-png-1-transparent.png" alt="Weather" class="weather-arrow mt-1">
                     </div>
                 </div>
-                <div class="row justify-content-between  position-relative px-1 py-1">
-                    <div class="col-6">
+                <div class="row justify-content-between  position-relative pr-1 py-1">
+                    <div class="col-6 ">
                       Wed, Apr 21, 2020
                     </div>
                     <div class="col-3 d-flex justify-content-end mx-2">
@@ -40,41 +40,41 @@
                 </div>
             </div>
             <nav class="navbar navbar-white px-0 mx-auto border-bottom body-max-width ">
-              <ul class="nav d-flex body-max-width">
-                <li class="nav-item mx-1 border-right">
+              <ul class="nav d-flex body-max-width w-100">
+                <li class="nav-item mx-1 border-right p1-2">
                   <a class="nav-link mx-auto" href="#">U.S.</a>
                 </li>
-                <li class="nav-item mx-1 border-right">
+                <li class="nav-item mx-1 border-right p1-2">
                   <a class="nav-link mx-auto" href="#">World</a>
                 </li>
-                <li class="nav-item mx-1 border-right">
+                <li class="nav-item mx-1 border-right p1-2">
                   <a class="nav-link mx-auto" href="#">Business</a>
                 </li>
-                <li class="nav-item mx-1 border-right">
+                <li class="nav-item mx-1 border-right p1-2">
                   <a class="nav-link mx-auto" href="#">Tech & Science</a>
                 </li>
-                <li class="nav-item mx-1 border-right">
+                <li class="nav-item mx-1 border-right p1-2">
                   <a class="nav-link mx-auto" href="#">Culture</a>
                 </li>
-                <li class="nav-item mx-1 border-right">
+                <li class="nav-item mx-1 border-right p1-2">
                   <a class="nav-link mx-auto" href="#">Newsgeek</a>
                 </li>
-                <li class="nav-item mx-1 border-right">
+                <li class="nav-item mx-1 border-right p1-2">
                   <a class="nav-link mx-auto" href="#">Sports</a>
                 </li>
-                <li class="nav-item mx-1 border-right">
+                <li class="nav-item mx-1 border-right p1-2">
                   <a class="nav-link mx-auto" href="#">Health</a>
                 </li>
-                <li class="nav-item mx-1 border-right">
+                <li class="nav-item mx-1 border-right p1-2">
                   <a class="nav-link mx-auto" href="#">The Debate</a>
                 </li>
-                <li class="nav-item border-right ">
+                <li class="nav-item border-right p1-2">
                   <a class="nav-link mx-auto" href="#">Vantage</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item p1-2">
                   <a class="nav-link mx-auto" href="#">Weather</a>
                 </li>
-                <li class="nav-item px-auto">
+                <li class="nav-item px-auto float-right">
                   <form class="form-inline my-2 my-lg-0 d-flex">
                     <a class="nav-link mx-auto grey-text" href="#">Search</a>
                     <img src="search.png" alt="search" class="search-icon">
@@ -86,12 +86,19 @@
 
     <header class="d-xl-none sticky-nav-top sticky-top mw-100 p-0 mb-lg-0 hidden-lg-up">
       <div class="d-flex mx-auto nav-sticky my-navbar py-2 justify-content-between body-max-width">	
-              <div class="d-flex">	
-                <img src="newsweek-seeklogo.com.svg" alt="newsweek-logo" class="w-25 h-100">	
-                <div class="color-white d-flex my-auto">	
-                  <img src="https://g.newsweek.com/img/weather/21.png" alt="Haze" class="weather-icon">	
-                   29° Mumbai, IN 	
-                  <img src="white-arrow-transparent-png-1-transparent.png" alt="Arrow" class="weather-arrow mt-1">	
+              <div class="d-flex">
+                <div class="media-rocks">
+                  <img src="newsweek-seeklogo.com.svg" alt="newsweek-logo" class="w-100 h-auto">
+                </div>
+                <div class="color-white d-flex my-auto hidden-xs">	
+                  <div class="hide-575">
+                    <img src="https://g.newsweek.com/img/weather/21.png" alt="Haze" class="weather-icon">	
+                    29° 
+                  </div>
+                  <div class="hide-640">
+                    Mumbai, IN 	
+                    <img src="white-arrow-transparent-png-1-transparent.png" alt="Arrow" class="weather-arrow mt-1">
+                  </div>
                 </div>	
               </div>	
               <div class="d-flex pl-5">	
@@ -108,6 +115,23 @@
       <section>
         <div class="row mb-4">
           <div class="left-section col-lg col-md-6 px-3 col-sm-push">
+            <div class="d-md-none">
+              <p class="grey-color font-weight-bold">TOP STORY</p>
+              <div class="pb-3 border-bottom pb-2 col-sm-pull">
+                <div class="featured-stories-panel position-relative">
+                  <img class="w-100 position-relative" alt="wuhan" src="https://d.newsweek.com/en/full/1585050/wuhan-institute-virology-covid-19-coronavirus-lab.jpg?w=591&h=364&f=024c89b31b571a3d5a887853baabda40">
+                  <a class="position-absolute help-text px-2 py-2">WORLD</a>
+                </div>
+                <div class="mx-1 my-1">
+                  <h3>
+                  <a href="#" class="font-weight-bold line-height-24 font-roboto black-text-hover-red-underline">
+                    Controversial Wuhan Lab Experiments May Have Started Coronavirus Pandemic
+                  </a>
+                  </h3>
+                  <span>After reporting that Covid-19 came from a market, U.S. intelligence modified its stance to say it might have been created in a lab. Here's why.</span>
+                </div>
+              </div>
+            </div>
             <p class="grey-color font-weight-bold">FEATURED STORIES</p>
             <div class="pb-3">
               <div class="featured-stories-panel position-relative">
@@ -251,20 +275,22 @@
               </div>
             </div>
           </div>
-          <div class="middle-section col-lg-5 col-md-6">
-            <p class="grey-color font-weight-bold">TOP STORY</p>
-            <div class="pb-3 border-bottom pb-2 col-sm-pull">
-              <div class="featured-stories-panel position-relative">
-                <img class="w-100 position-relative" alt="wuhan" src="https://d.newsweek.com/en/full/1585050/wuhan-institute-virology-covid-19-coronavirus-lab.jpg?w=591&h=364&f=024c89b31b571a3d5a887853baabda40">
-                <a class="position-absolute help-text px-2 py-2">WORLD</a>
-              </div>
-              <div class="mx-1 my-1">
-                <h3>
-                <a href="#" class="font-weight-bold line-height-24 font-roboto black-text-hover-red-underline">
-                  Controversial Wuhan Lab Experiments May Have Started Coronavirus Pandemic
-                </a>
-                </h3>
-                <span>After reporting that Covid-19 came from a market, U.S. intelligence modified its stance to say it might have been created in a lab. Here's why.</span>
+           <div class="middle-section col-lg-5 col-md-6">
+            <div class="d-none d-md-block">
+              <p class="grey-color font-weight-bold">TOP STORY</p>
+              <div class="pb-3 border-bottom pb-2 col-sm-pull">
+                <div class="featured-stories-panel position-relative">
+                  <img class="w-100 position-relative" alt="wuhan" src="https://d.newsweek.com/en/full/1585050/wuhan-institute-virology-covid-19-coronavirus-lab.jpg?w=591&h=364&f=024c89b31b571a3d5a887853baabda40">
+                  <a class="position-absolute help-text px-2 py-2">WORLD</a>
+                </div>
+                <div class="mx-1 my-1">
+                  <h3>
+                  <a href="#" class="font-weight-bold line-height-24 font-roboto black-text-hover-red-underline">
+                    Controversial Wuhan Lab Experiments May Have Started Coronavirus Pandemic
+                  </a>
+                  </h3>
+                  <span>After reporting that Covid-19 came from a market, U.S. intelligence modified its stance to say it might have been created in a lab. Here's why.</span>
+                </div>
               </div>
             </div>
             <div class="d-inline-flex my-3 ">
@@ -873,7 +899,7 @@
         <span class="my-auto text-align-middle font-weight-bold small-font-size ">IN THE MAGZINE</span>
       </div>
       <section>
-        <h2 class=".d-none">
+        <h2 class="d-none">
           IN The Magzine
         </h2>
         <div class="container body-max-width">
@@ -974,7 +1000,7 @@
       </section>
 
       <section>
-        <h2 class=".d-none">
+        <h2 class="d-none">
           Editor Picks
         </h2>
         <div class="justify-content-center py-3 d-flex border-bottom">
@@ -1483,48 +1509,50 @@
 
         <div class="container mt-2 pb-4 border-bottom body-max-width">
           <div class="row pt-5">
-            <div class="col-lg-8 col-md-7 py-2">
+            <div class="col-xl-8 col-lg-7 col-md-12 py-2">
               <a class="red-text font-weight-bold">
                 SUBSCRIBE
               </a>
               <div class="w-100 background-grey">
-                <div class="d-flex">
-                  <div class="position-relative m-4">
-                    <img alt="mag-1" class="pb-4" src="https://d.newsweek.com/en/full/1582633/may-01-2020-cover.jpg?w=170&q=95&f=1a0d984a3141e5762557f214ca2a1540">
-                      <img alt="mqg-2" class="position-absolute magzine-help" src="https://d.newsweek.com/en/full/1585087/may-08-15-2020-cover.jpg?w=170&q=95&f=c4d10af6474d34e586607b280b6589f0">
+                <div class="d-flex direction">
+                  <div class="position-relative m-4 mx-auto ">
+                    <img alt="mag-1" class="pb-4 toggle-margin" src="https://d.newsweek.com/en/full/1582633/may-01-2020-cover.jpg?w=170&q=95&f=1a0d984a3141e5762557f214ca2a1540">
+                      <img alt="mqg-2" class="position-absolute toggle-margin magzine-help" src="https://d.newsweek.com/en/full/1585087/may-08-15-2020-cover.jpg?w=170&q=95&f=c4d10af6474d34e586607b280b6589f0">
                   </div>
                   <div class="my-auto">
-                    <h4 class="pl-4 font-weight-bold font-roboto p-2">
+                    <h4 class="pl-4 font-weight-bold font-roboto p-2 work-on-small">
                       In-depth Stories You Don't See Elsewhere About Topics You Want to Read!
                     </h4>
-                    <h5 class=" pl-4 p-2 font-weight-light">
+                    <h5 class=" pl-4 p-2 font-weight-light work-on-small">
                       All Access + Weekly Delivery. <br/>
                       Choose A Membership That's Perfect for You!
                     </h5>
-                    <a href="#" class="col ml-4 w-35 d-flex text-left px-3 py-1 text-align-center subscribe-other text-decoration-none color-white">
-                      SUBSCRIBE
-                    </a>
+                    <div class="pb-3 ml-4">
+                      <a href="#" class="m1-auto col work-on-small w-35 d-flex text-left px-3 py-1 text-align-center subscribe-other text-decoration-none color-white ">
+                        SUBSCRIBE
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-md-5 py-2">
+            <div class="col-xl-4 col-lg-5 col-md-12 py-2">
               <a class="red-text font-weight-bold">
                 NEWSLETTER
               </a>
-              <div class="container m-0">
-                <div class="row">
-                  <div class="col p-0">
+              <div class="container m-0 mw-100 card">
+                <div class="row direction">
+                  <div class="col-4 p-0 toggle-margin">
                     <img alt="homep" class="img-flow w-100  object-fit-class" src="https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5">
                   </div>
-                  <div class="col">
-                      <h4 class="font-weight-bold my-2 mx-1 font-roboto">
+                  <div class="col-8 mw-100">
+                      <h4 class="font-weight-bold my-2 mx-1 font-roboto work-on-small">
                         The Starting 5
                       </h4>
-                      <h5 class="font-weight-light my-2 mx-1">
+                      <h5 class="font-weight-light my-2 mx-1 work-on-small">
                         See why nearly a quarter of a million subscribers begin their day with the Starting 5.
                       </h5>
-                      <a href="#" class="col w-35 my-2 mx-1 d-flex text-left py-1 text-align-center subscribe-other text-decoration-none color-white">
+                      <a href="#" class="col m1-auto w-35 my-2 work-on-small d-flex text-left py-1 text-align-center subscribe-other text-decoration-none color-white">
                         SIGN UP
                       </a>
                   </div>
