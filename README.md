@@ -14,7 +14,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/ishanchawla1/Using-Bootstrap/feature/Newsweek_Clone/index.html)
+[Live Demo Link](https://raw.githack.com/ishanchawla1/Using-Bootstrap/feature/Newsweek_Clone/index.html)
 
 ## Authors
 
