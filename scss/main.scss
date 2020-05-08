@@ -473,3 +473,10 @@ main {
     width: 100%;
   }
 }
+
+.newsletter-large-image {
+  background-repeat: no-repeat;
+  object-fit: cover;
+  object-position: center;
+  height: 10rem;
+}

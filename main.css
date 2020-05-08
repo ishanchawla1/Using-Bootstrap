@@ -478,4 +478,14 @@ main {
     width: 100%;
   }
 }
+
+.newsletter-large-image {
+  background-repeat: no-repeat;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+  height: 10rem;
+}
+
 /*# sourceMappingURL=main.css.map */
